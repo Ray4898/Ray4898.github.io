@@ -10,7 +10,7 @@ labels:
   - JavaScript
 ---
 
-<img class="ui medium top floated image" src="../images/JS.PNG">
+<img class="ui large top floated image" src="../images/JS.PNG">
 
 ## Why JavaScript is a freak programming language?
 
