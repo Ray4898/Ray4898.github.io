@@ -32,7 +32,7 @@ Reference
 
 MAVLink, “Messages (common),” Messages (common) · MAVLink Developer Guide. [Online]. Available: https://mavlink.io/en/messages/common.html. [Accessed: 21-Dec-2019].
 
-Here is some code that illustrates how we read values from the RPM sensors:
+Here is some code that illustrates how I make the propeller spin without joystick using pymavlink:
 
 ```js
 from pymavlink import mavutil
