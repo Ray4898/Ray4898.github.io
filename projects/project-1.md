@@ -1,44 +1,115 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
-title: Micromouse
-permalink: projects/micromouse
+image: images/proj1.PNG
+title: Vericle Landing Rocket (Thrust Readings of a Rocket)
+
+permalink: projects/roket
 # All dates must be YYYY-MM-DD format!
 date: 2015-07-01
 labels:
-  - Robotics
+  - propeller
   - Arduino
-  - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+summary: We made an RPM sensor by using a Hall effect sensor and a magnet for the Vericle Landing Rocket.
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
+  <img class="ui image" src="../images/proj1.PNG">
+  <img class="ui image" src="../images/proj1-2.PNG.jpg">
+  
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+In order to ensure a descending rocket will land softly, a sensor system must be integrated to detect changes in height, velocity, rotations-per-minute (RPM) and thrust. The respective data is essential for proper communication between the microcontroller and the servo motor. The intended goal is to have our sensors output a single height value and to adjust the throttle of the propeller with respect to the velocity as the rocket descends.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
 
-Here is some code that illustrates how we read values from the line sensors:
+For this project, We created an RPM sensor by using a Hall effect sensor and a magnet. The Hall effect sensor uses the Hall effect theory and acts like a switch. We 3D printed a mold, which could hold a magnet against the shaft and also 3D printed a base, which would hold the Hall effect sensor in a permanent position near the shaft. When the motor spins, the magnet passes in front of the Hall effect sensor, changes the magnetic field for that duration that the magnet is in front of the sensor, and sends a signal to the Arduino, thus detecting the rotation. 
+
+
+Here is some code that illustrates how we read values from the RPM sensors:
 
 ```js
-byte ADCRead(byte ch)
+#include <Servo.h>
+
+Servo myservo;  // create servo object to control a servo
+
+#define RPM_COUNT 20
+
+int potpinval = 0;
+int potpin = 0;  // analog pin used to connect the potentiometer
+int val;    // variable to read the value from the analog pin
+volatile byte half_revolutions;
+unsigned int rpm;
+unsigned long timeold;
+int sum[RPM_COUNT];
+int average =0;
+int REVS = 0;
+
+
+
+void setup() {
+  Serial.begin(115200);
+  myservo.attach(9);  // attaches the servo on pin 9 to the servo object
+  attachInterrupt(0, magnet_detect, RISING);//Initialize the intterrupt pin (Arduino digital pin 2)
+  half_revolutions = 0;
+  rpm = 0;
+  timeold = 0;
+}
+
+void loop() {
+  potpinval = analogRead(potpin);            // reads the value of the potentiometer (value between 0 and 1023)
+  //val = map(potpinval, 0, 1023, 1100, 1700);     // scale it to use it with the servo (value between 0 and 180)
+  Serial.print("Potpin:");
+  Serial.println(val);
+  if (potpinval <= 100) {
+    val = 1100;
+     //Set potpin to half position to get to max servo
+  }
+   else {
+    val = 1144;
+  }
+  myservo.writeMicroseconds(val);                  // sets the servo position according to the scaled value
+  delay(500);                           // waits for the servo to get there
+
+ 
+
+//  Serial.print("Throtte:");
+//  Serial.println(val);
+  if (half_revolutions >= 20) {
+     rpm = 30*1000/(millis() - timeold)*half_revolutions;
+     rpm = rpm * 2;
+     for(int i = 0;i < RPM_COUNT - 1; i++){
+      sum[i] = sum[i+1];
+      }
+     sum[RPM_COUNT-1] = rpm;
+//     Serial.print("Test ");
+//     Serial.println(sum[6]);
+     long total = 0;
+     for(int i = 0; i < RPM_COUNT; i++){
+      total = total + sum[i];
+      }
+     average = total/RPM_COUNT;
+     timeold = millis();
+     half_revolutions = 0;
+     REVS = REVS + 1;
+     Serial.println(REVS);
+     Serial.print("Final Reading ");
+     
+   }
+   Serial.println(average);
+   float predict_force = 0.0000211614*average*average-0.015424*average+5.23;
+   Serial.print("predict-force: ");
+   Serial.println(predict_force);
+   
+}
+
+void magnet_detect()//This function is called whenever a magnet/interrupt is detected by the arduino
 {
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
+  half_revolutions++;
+  Serial.println("detect");
 }
 ```
 
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+
 
 
 
