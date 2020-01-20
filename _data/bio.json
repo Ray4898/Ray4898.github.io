@@ -6,7 +6,7 @@
     "email": "weihang@hawaii.edu",
     "phone": "808-387-5446",
     "website": "https://Ray4898.github.io",
-    "summary": "I am studying for a B.S. in Computer Engineering in the Department of Electrical Engineering at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "summary": "I am studying for a B.S. in Computer Engineering in the Department of Electrical Engineering at the University of Hawaii. I expect to graduate in Spring, 2021.",
     "location": {
       "address": "",
       "postalCode": "96817",
@@ -40,6 +40,18 @@
       "name": "hardware design",
       "keywords": [
         "System Verilog"
+      ]
+    },
+    {
+      "name": "software engineering",
+      "keywords": [
+        
+      ]
+    },
+    {
+      "name": "networking",
+      "keywords": [
+        
       ]
     },
     {
