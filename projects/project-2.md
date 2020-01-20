@@ -58,4 +58,4 @@ t= t+1
 #master.reboot_autopilot()
 ```
  
-Source: <a href="https://sites.google.com/a/hawaii.edu/uh-vip/teams/ran"><i class="large github icon"></i>AUV</a>
+You can learn more at the (UH AUV website) <a href="https://sites.google.com/a/hawaii.edu/uh-vip/teams/ran"><i class="large github icon"></i>AUV</a>
