@@ -15,7 +15,7 @@ summary: Embedded system design for Underwater Autonomy Vehicle.
 ---
 
 <img class="ui medium image" src="../images/AUV.png">
-<img class="ui medium image" src="../images/AUV2png.png	">
+<img class="ui medium image" src="../images/AUV2png.png">
 
 During Fall 2019, I have been working on the VIP project called “Robot Autonomy and Navigation (RAN)” under professor Song.  This is a new project which was just added into the VIP program.  According to the VIP project website, the goal for this project is to “Develop and implement long-term autonomy software and hardware for individual and collaborating mobile robot systems.”
 
