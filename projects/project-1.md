@@ -6,7 +6,7 @@ title: Vericle Landing Rocket (Thrust Readings of a Rocket)
 
 permalink: projects/roket
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2018-07-01
 labels:
   - propeller
   - Arduino
