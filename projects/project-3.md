@@ -1,8 +1,8 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
-title: Cotton
+image: images/filter.PNG
+title: transfer function for filter
 permalink: projects/filter
 # All dates must be YYYY-MM-DD format!
 date: 2019-04-12
