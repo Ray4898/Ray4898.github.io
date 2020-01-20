@@ -15,7 +15,7 @@ summary: We made an RPM sensor by using a Hall effect sensor and a magnet for th
 
 <div class="ui small rounded images">
   <img class="ui image" src="../images/proj1.PNG">
-  <img class="ui image" src="../images/proj1-2.PNG.jpg">
+  <img class="ui image" src="../images/proj1-2.PNG">
   
 </div>
 
