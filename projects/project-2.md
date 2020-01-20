@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/AUV.png
+image: images/AUV (3).png
 title: Autonomy and Navigation
 permalink: projects/vacay
 # All dates must be YYYY-MM-DD format!
