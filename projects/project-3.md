@@ -26,7 +26,7 @@ In this project, I made and implement the transfer function class, simplificatio
 
 By doing this program, I got more familiar with programing with C++. Since I used a lot of pointer and vector in this project, I understand more about the pointer and vector. By doing this project, I also understand more about the filter design.
 
+You will need a Linux machine to run the a.out file to run the program. 
 
-
-Source: <a href="https://github.com/Ray4898/Ray4898.github.io/tree/master/filter"><i class="large github icon "></i>source code and the .out file </a>
+Source: <a href="https://github.com/Ray4898/Ray4898.github.io/tree/master/filter"><i class="large github icon "></i>source code and the a.out file </a>
 
