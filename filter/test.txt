@@ -1,0 +1,24 @@
+---------------------------------------------------------------
+circuit: 1 C: 
+Capacitor: C ,value :5.000000 F
+Resistor: R ,value :120.000000 ohm
+Inductor: I ,value :30.000000 H
+output:
+Resistor: R ,value :120.000000 ohm
+transfer function: 
+ + 120.000000S 
+------------------30.000000S^2 + 120.000000S + 0.200000
+---------------------------------------------------------------
+circuit: 2 C2: 
+Resistor: R1 ,value :5000.000000 ohm
+Resistor: R2 ,value :500.000000 ohm
+Capacitor: C1 ,value :500.000000 F
+Capacitor: C2 ,value :6.000000 F
+Inductor: I1 ,value :50.000000 H
+output:
+Resistor: R1 ,value :5000.000000 ohm
+Inductor: I1 ,value :50.000000 H
+transfer function: 
+ 50.000000S^2+ 5000.000000S 
+------------------------------50.000000S^2 + 5500.000000S + 0.168667
+---------------------------------------------------------------

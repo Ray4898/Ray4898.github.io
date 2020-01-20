@@ -1,0 +1,12 @@
+circuit: C 
+Capacitor: C ,value :5.000000 F
+Resistor: R ,value :120.000000 ohm
+Inductor: I ,value :30.000000 H
+output:
+Resistor: R ,value :120.000000 ohm
+---------------------------------------------------------------
+circuit: C2
+Capacitor: C ,value :5.000000 F
+Resistor: R ,value :120.000000 ohm
+output:
+Resistor: R ,value :120.000000 ohm
