@@ -87,7 +87,8 @@
         "Ubuntu",
         "Git/GitHub",
         "g++",
-        "MS server"
+        "Windows server"
+        "Windows10"
       ]
     }
   ],
@@ -145,6 +146,12 @@
       "title": "VMware Certified Associate 6 – Data Center Virtualization (VCA)",
       "date": "2017-04-30"
       
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request",
+      "referece": ""
     }
   ]
  
