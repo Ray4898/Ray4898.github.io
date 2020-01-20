@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/filter.PNG
+image: images/filter (2).PNG
 title: transfer function for filter
 permalink: projects/filter
 # All dates must be YYYY-MM-DD format!
