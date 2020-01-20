@@ -4,7 +4,10 @@ type: essay
 title: JavaScript – the freak of programming language
 # All dates must be YYYY-MM-DD format!
 date: 2020-01-20
-labels:
+labels: 
+  - Software Engineering
+  - Learning
+  - JavaScript
 ---
 
 <img class="ui medium top floated image" src="../images/JS.PNG">
