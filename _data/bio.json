@@ -70,12 +70,12 @@
         "Java",
         "Javascript",
         "Assembly",
-        "Common Lisp"
-        "networking"
-        "System Verilog"
-        "circuit analysis"
+        "Common Lisp",
+        "networking",
+        "System Verilog",
+        "circuit analysis",
         "python"
-        "wireshark"
+        
 
       ]
     },
@@ -83,11 +83,11 @@
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "MacOS",
+        "wireshark",
         "Ubuntu",
         "Git/GitHub",
         "g++",
-        "TI LaunchPad"
+        "MS server"
       ]
     }
   ],
@@ -109,7 +109,7 @@
       "startDate": "2014-01-01",
       "endDate": "2017-08-15",
       "gpa": "3.9",
-      "courses": [ "Java", "Networking", "database(MySQL)", "security", "C","Linux OS", "Server"
+      "courses": [ "Java", "Networking", "database(MySQL)", "security", "C","Linux OS", "Server","VM-ware"
       ]
     }
   ],
