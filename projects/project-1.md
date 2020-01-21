@@ -30,7 +30,7 @@ For this project, We created an RPM sensor by using a Hall effect sensor and a m
  
 </div>
 
-We used the RPM sensor we made and a scale to measue the RPM and the thrust. We also made a graph for it, and the Graph above show the relation between the RPM and the thrust (measured in Weight).  With the relation between the RPM and the thrust, we could now know how to control the rocket when it is landing.
+We used the RPM sensor we made and a scale to measue the RPM and the thrust. We also made a graph for RPM VS Thrust with the data, and the Graph above shows the relation between the RPM and the thrust (measured in Weight).  We also used the data to make an equation.  With the relation between the RPM and the thrust, we could now know how to control the rocket when it is landing.
 
 By doing this project, I know how to design an embed system with Arduino and how to write code with Arduino.
 
