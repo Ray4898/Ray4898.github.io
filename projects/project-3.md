@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/filter (2).PNG
-title: transfer function for filter
+title: Transfer Function for Filter
 permalink: projects/filter
 # All dates must be YYYY-MM-DD format!
 date: 2019-04-12
@@ -13,7 +13,7 @@ summary: A program to generate a transfer function for a filter I developed for 
 ---
 
 <div>
-  <img class="ui medium image" src="../images/filter.PNG">
+  <img class="ui floated image" src="../images/filter.PNG">
  
   
 </div>
