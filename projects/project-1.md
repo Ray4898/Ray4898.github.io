@@ -15,7 +15,7 @@ summary: We made an RPM sensor by using a Hall effect sensor and a magnet for th
 
 <div class="ui small rounded images">
   <img class="ui small floated image" src="../images/proj1.PNG">
-  <img class="ui small floated image" src="../images/proj1-2.PNG">
+  
   
 </div>
 
@@ -24,7 +24,17 @@ In order to ensure a descending rocket will land softly, a sensor system must be
 
 For this project, We created an RPM sensor by using a Hall effect sensor and a magnet. The Hall effect sensor uses the Hall effect theory and acts like a switch. We 3D printed a mold, which could hold a magnet against the shaft and also 3D printed a base, which would hold the Hall effect sensor in a permanent position near the shaft. When the motor spins, the magnet passes in front of the Hall effect sensor, changes the magnetic field for that duration that the magnet is in front of the sensor, and sends a signal to the Arduino, thus detecting the rotation. 
 
+<div class="ui medium rounded images">
+  
+ <img class="ui medium image" src="../images/proj1-2.PNG">
+ 
+</div>
+
+We used the RPM sensor we made and a scale to measue the RPM and the thrust. We also made a graph for it, and the Graph above show the relation between the RPM and the thrust (measured in Weight).  With the relation between the RPM and the thrust, we could now know how to control the rocket when it is landing.
+
 By doing this project, I know how to design an embed system with Arduino and how to write code with Arduino.
+
+
 
 Source: <a href="https://github.com/Ray4898/Ray4898.github.io/blob/master/RPM.ino"><i class="large github icon "></i>source code for the RPM sensor</a>
 
