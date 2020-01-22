@@ -26,7 +26,7 @@ For this project, We created an RPM sensor by using a Hall effect sensor and a m
 
 <div class="ui large rounded images">
   
- <img class="ui large middle image" src="../images/proj1-2.PNG">
+ <img class="ui large center image" src="../images/proj1-2.PNG">
  
 </div>
 
