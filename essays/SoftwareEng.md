@@ -9,7 +9,7 @@ labels:
   - Learning
 ---
 
-<img class="ui small floated image" src="../images/JS.PNG">
+
 
 ## What is software engineering?
 
@@ -17,8 +17,8 @@ When most people think about software engineers, they may just think the softwar
 
 
 ## How software engineering changes the world?
-
-Software engineers have been changing the world in many ways.  Software engineers change the way people pay for the things they buy.  As I know, in some countries, when people go shopping, they don’t need to bring the wallet.  If people want to pay for something, they just use their smart phone to scan the QR code instead of using cash or credit card.  One of the examples is the Alipay.  After scanning the QR code, the payment will be processed in the backend database.   Software engineers change the way people shop.  In old day, when people want to go shopping, they have to go to some shopping malls or supermarkets.  Due to the software engineers, today, people can buy anything online even anywhere, and they don’t have to go to shopping mall anymore. One of the examples is the Amazon.  Software engineers also change the way people take transportation.  In old day, if people wanted to take a cab, they either needed to call or try to find a cab nearby.  Therefore, they needed to wait for a long time to get the cab.  Software engineers solved that problem.  Now, people just need to bring up their smart phones and enter the destination on their phones.  Then, the system will find the best available driver nearby.  One of the examples is Uber.
+<img class="ui small floated image" src="../images/alipay.jpg">
+Software engineers have been changing the world in many ways.  Software engineers change the way people pay for the things they buy.  As I know, in some countries, when people go shopping, they don’t need to bring the wallet.  If people want to pay for something, they just use their smart phone to scan the QR code instead of using cash or credit card.  After scanning the QR code, the payment will be processed in the backend database.  One of the examples is the Alipay.  <img class="ui small floated image" src="../images/51J6cQ63OJL._SY355_.jpg"> Software engineers change the way people shop.  In old day, when people want to go shopping, they have to go to some shopping malls or supermarkets.  Due to the software engineers, today, people can buy anything online even anywhere, and they don’t have to go to shopping mall anymore. One of the examples is the Amazon.  <img class="ui small floated image" src="../images/TPLLaqYR_400x400.jpg">  Software engineers also change the way people take transportation.  In old day, if people wanted to take a cab, they either needed to call or try to find a cab nearby.  Therefore, they needed to wait for a long time to get the cab.  Software engineers solved that problem.  Now, people just need to bring up their smart phones and enter the destination on their phones.  Then, the system will find the best available driver nearby.  One of the examples is Uber.
 Due to the software engineering, out lives are being changed and improved.  That is also the reason why I study the software engineering.  I wanted to make some cool things that is convenient for people to make the life better.
 
 
