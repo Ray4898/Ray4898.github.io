@@ -37,4 +37,5 @@ code I wrote for this project to make the proprller spin without a joysick<a hre
 
  
 You can learn more at the (UH AUV website) <a href="https://sites.google.com/a/hawaii.edu/uh-vip/teams/ran"><i class="large github icon"></i>AUV</a>
+<p>\n</p>
 More information about the Mavlink <a href="https://mavlink.io/en/messages/common.html"><i class="large github icon"></i>Mavlink</a>
