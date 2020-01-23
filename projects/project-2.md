@@ -32,30 +32,9 @@ Reference
 
 MAVLink, “Messages (common),” Messages (common) · MAVLink Developer Guide. [Online]. Available: https://mavlink.io/en/messages/common.html. [Accessed: 21-Dec-2019].
 
-Here is some code that illustrates how I make the propeller spin without joystick using pymavlink:
+code I wrote for this project <a href="https://github.com/Ray4898/Ray4898.github.io/blob/master/AUV.py"><i class="large github icon"></i>Mavlink</a>
 
-```js
-from pymavlink import mavutil
-import time
-# Create the connection
-# Need to provide the serial port and baudrate
-master = mavutil.mavlink_connection(
-            '/dev/ttyACM0',
-            baud=115200)
-master.mav.command_long_send(
-    master.target_system,
-    master.target_component,
-    mavutil.mavlink.MAV_CMD_COMPONENT_ARM_DISARM,
-    0,
-    1, 0, 0, 0, 0, 0, 0)
 
-t = 0;
-while (t<5):
-
-master.mav.manual_control_send(1,500,0,0,0,0)
-time.sleep(1)
-t= t+1
-#master.reboot_autopilot()
-```
  
 You can learn more at the (UH AUV website) <a href="https://sites.google.com/a/hawaii.edu/uh-vip/teams/ran"><i class="large github icon"></i>AUV</a>
+More information about the Mavlink <a href="https://mavlink.io/en/messages/common.html"><i class="large github icon"></i>Mavlink</a>
