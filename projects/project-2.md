@@ -32,7 +32,7 @@ Reference
 
 MAVLink, “Messages (common),” Messages (common) · MAVLink Developer Guide. [Online]. Available: https://mavlink.io/en/messages/common.html. [Accessed: 21-Dec-2019].
 
-code I wrote for this project to make the proprller spin without a joysick<a href="https://github.com/Ray4898/Ray4898.github.io/blob/master/AUV.py"><i class="large github icon"></i>Code_AUV</a>
+code I wrote for this project to make the proprller spin without a joysick<a href="https://github.com/Ray4898/Ray4898.github.io/blob/master/AUV.py"><i class="large github icon"></i> Code_AUV</a>
 
 
  
