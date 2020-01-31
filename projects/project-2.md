@@ -25,7 +25,7 @@ In this project, I am in charge of the embedded system design. My task for this 
 
 By doing this project, I learned the architecture of the BlueRUV. I learned the mavink protocol and how this protocol work. I also learned the Qgroundcontrol.  I also learned the pymavlink. 
 
-Reference:
+## Reference:
 <p></p>
 “Robot Autonomy and Navigation (RAN) - UH VIP,” Google Sites. [Online]. Available: https://sites.google.com/a/hawaii.edu/uh-vip/teams/ran. [Accessed: 21-Dec-2019] 
 
