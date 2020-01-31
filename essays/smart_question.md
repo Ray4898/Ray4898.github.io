@@ -37,7 +37,9 @@ In addition, we need to ask informative question. If our questions don’t have 
 Besides that, we also need to tell the answerer what our requirement is.  For example, if we ask, “how to write code to sort a number list,” the other people may give us the solution we don’t want.  There are many different algorithms that solve this problem, so we should specify the requirement we want such as run time speed.  
 
 A person asked the below question in stackOverflow:
-<img class="ui large center image" src="../images/Capture.PNG">
+
+<img src="../images/Capture.PNG" width="100%" height="auto" />
+
 
 I think it is not a good smart question.  What kind of the database does the person use?  What programming language does the person use in the application?  There are a lot of database system and programming language, and different database system or different programming language may lead to a different solution.  Besides that, it is hard for me to understand the question.  What is the previously saved value?  Is the previously saved value from the database?  What is the current value?  The person should explain more about the saved value and current value more clearly.  Also, it would be much better if he could provide an example. 
 
