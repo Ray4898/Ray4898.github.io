@@ -45,6 +45,6 @@ I think it is not a good smart question.  What kind of the database does the per
 
 As software engineers, we should try our best to solve the problem first so that we know how we can approach the solution.  When asking questions, we need to ask informative and understandable questions; therefore, other people know how to help us and give us the right solution.
 
-## reference
+## Reference
 
 E. S. Raymond, “How To Ask Questions The Smart Way,” How To Ask Questions The Smart Way. [Online]. Available: http://www.catb.org/esr/faqs/smart-questions.html. [Accessed: 31-Jan-2020].
