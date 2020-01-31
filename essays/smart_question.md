@@ -16,9 +16,10 @@ I like asking questions.  I used to think asking more questions was always a goo
 ## What are smart questions?
 
 According to the article “How to ask questions the smart way” by Eric Raymond, a smart question should be a question we cannot solve it by ourselves.  As software engineers, before we ask the question, we are supposed to attempt to solve it by ourselves first.  We can try to figure it out with the knowledge we have so far.  We can try to look for the answer from the the note we have taken before.  We also can use the internet and search engine like google to find the answer.   Somebody might has already asked the same question in the internet, and some articles from the internet may give us the answer.  If we still cannot get the answer after all the attempts, we know that is a good or smart question we should ask.  
-I found a person who asked, “What are metaclasses in Python?” when I was viewing the StackOverFlow. Then, I went to the google search engine and typed in the same question in the search box.  After a couple seconds, google shows me a lot of websites that related to the question.  The first one is the “Python Tutorial: Metaclasses Tutorial - Python-Course.eu.”  The Python Tutorial explains what the metaclass is and shows how to use the metaclass in Python.  I can easily get the answer for the question “What are metaclasses in Python?” from the Python Tutorial without asking the question.  Therefore, it is not a good smart question.  If we can solve the question by ourselves, we should not ask that question.  
 
 <img class="ui small top floated image" src="../images/st.png">
+
+I found a person who asked, “What are metaclasses in Python?” when I was viewing the StackOverFlow. Then, I went to the google search engine and typed in the same question in the search box.  After a couple seconds, google shows me a lot of websites that related to the question.  The first one is the “Python Tutorial: Metaclasses Tutorial - Python-Course.eu.”  The Python Tutorial explains what the metaclass is and shows how to use the metaclass in Python.  I can easily get the answer for the question “What are metaclasses in Python?” from the Python Tutorial without asking the question.  Therefore, it is not a good smart question.  If we can solve the question by ourselves, we should not ask that question.  
 
 When we are solving the problem by ourselves without help, we will be impressed by the problem and how to get the solution;  therefore, when we see the same problem again next time, we can get the best solution right away without thinking about it.  This practice can help us become a good and smart software engineer. 
 
@@ -36,7 +37,7 @@ In addition, we need to ask informative question. If our questions don’t have 
 Besides that, we also need to tell the answerer what our requirement is.  For example, if we ask, “how to write code to sort a number list,” the other people may give us the solution we don’t want.  There are many different algorithms that solve this problem, so we should specify the requirement we want such as run time speed.  
 
 A person asked the below question in stackOverflow:
-<img class="ui large top floated image" src="../images/Capture.PNG">
+<img class="ui large center image" src="../images/Capture.PNG">
 
 I think it is not a good smart question.  What kind of the database does the person use?  What programming language does the person use in the application?  There are a lot of database system and programming language, and different database system or different programming language may lead to a different solution.  Besides that, it is hard for me to understand the question.  What is the previously saved value?  Is the previously saved value from the database?  What is the current value?  The person should explain more about the saved value and current value more clearly.  Also, it would be much better if he could provide an example. 
 
