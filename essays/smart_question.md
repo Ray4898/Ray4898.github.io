@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Smart Software Engineer Should Ask Smart Question 
+title: Smart Software Engineers Should Ask Smart Questions 
 # All dates must be YYYY-MM-DD format!
 date: 2020-01-30
 labels: 
