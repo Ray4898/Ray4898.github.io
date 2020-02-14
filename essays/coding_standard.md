@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Coding standard is annoying but important
+title: Coding Standard is Annoying but Important
 # All dates must be YYYY-MM-DD format!
 date: 2020-02-13
 labels: 
