@@ -27,7 +27,7 @@ This is the website without using a UI.  We can see there is only one big pictur
 
 <img class="ui large floated image" src="../images/withUI2.PNG">
 
-After adding a UI to the webpage, everything become better.  The picture is no longer stay alone, and the description text is next to the picture.  People don’t need to scroll up to look at the picture while they are reading the text.  The Hyperlink for Facebook, twitter, and google now become a group of interesting colorful buttons.  There are also some icons in the button.   People would prefer to view picture instead of reading text, so more picture would make the website more attractive.  In addition, the website now contains larger areas for people to enter their name and comments, so people don’t need to just focus on a small tiny area when entering their data.  Hence, UI is very important of a webpage.
+After adding a UI to the webpage, everything becomes better.  The picture is no longer stay alone, and the description text is next to the picture.  People don’t need to scroll up to look at the picture while they are reading the text.  The Hyperlink for Facebook, twitter, and google now become a group of interesting colorful buttons.  There are also some icons in the button.   People would prefer to view picture instead of reading text, so more picture would make the website more attractive.  In addition, the website now contains larger areas for people to enter their name and comments, so people don’t need to just focus on a small tiny area when entering their data.  Hence, UI is very important of a webpage.
 
 ## Why do we use sematic UI?
 
