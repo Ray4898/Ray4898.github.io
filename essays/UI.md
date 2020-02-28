@@ -29,11 +29,11 @@ This is the website without using a UI.  We can see there is only one big pictur
 
 After adding a UI to the webpage, everything becomes better.  The picture is no longer stay alone, and the description text is next to the picture.  People don’t need to scroll up to look at the picture while they are reading the text.  The Hyperlink for Facebook, twitter, and google now become a group of interesting colorful buttons.  There are also some icons in the button.   People would prefer to view picture instead of reading text, so more picture would make the website more attractive.  In addition, the website now contains larger areas for people to enter their name and comments, so people don’t need to just focus on a small tiny area when entering their data.  Hence, UI is very important of a webpage.
 
-## Why do we use sematic UI?
+## Why do we use semantic UI?
 
-Although a UI can make a webpage better, it is not easy to design and make a UI just with CSS.  To make a good UI, if we just use CSS, it would be a nightmare.  We may need to import a lot of pictures and figure out how to locate the different pictures and text to make a nice UI.  We need to try different size and try different location.  A sematic UI may help us solve that problem.  Sematic UI contain a lot of build in classes and components.  It also contains a lot of different icon that we can use for a webpage. For example, if we want to import a Facebook icon, we just need to type “class = “facebook icon”.”  We don’t need to import any pictures for the icons and resize them to a good size.
+Although a UI can make a webpage better, it is not easy to design and make a UI just with CSS.  To make a good UI, if we just use CSS, it would be a nightmare.  We may need to import a lot of pictures and figure out how to locate the different pictures and text to make a nice UI.  We need to try different size and try different location.  A semantic UI may help us solve that problem.  Semantic UI contain a lot of build in classes and components.  It also contains a lot of different icon that we can use for a webpage. For example, if we want to import a Facebook icon, we just need to type “class = “facebook icon”.”  We don’t need to import any pictures for the icons and resize them to a good size.
 
-In addition, sematic UI use nature language, so we don’t have to memorize any syntax.  If we want to import something from the sematic UI, we just use the normal English phrase without any weird special characters.  That makes designing and building a website with a good UI easier.
+In addition, semantic UI use nature language, so we don’t have to memorize any syntax.  If we want to import something from the semantic UI, we just use the normal English phrase without any weird special characters.  That makes designing and building a website with a good UI easier.
 
 ## Conclusion
 
