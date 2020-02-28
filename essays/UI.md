@@ -18,7 +18,7 @@ I have been impressed by some websites design and user interface.  These website
 ## Why is UI the life of a webpage?
 
 Last week, we finally moved in to one of my favorite topics, which is the webpage design.  However, I really didn’t like the page I just made with the HTML and CSS.  I felt the webpages I made last week was boring, and they are very different from the webpages I viewed in the internet before.  
-This week, after I started looking at the UI design, I finally understand why my webpages I made last week were so bad.  I think UI is the life of a webpage.  A good UI can make the webpage more interesting.  A good UI can interact with people.  A good UI also can make people understand more about the webpage.  A webpage without a UI is like a person without wearing any clothes. 
+This week, after I started looking at the UI design, I finally understand why my webpages I made last week were so bad.  I think UI is the life of a webpage.  A good UI can make the webpage more interesting.  A good UI can interact with people.  A good UI also can make people understand more about the webpage.  A webpage without a UI is death. 
 Here is the example to show how a UI can change a webpage.
 
 <img class="ui large floated image" src="../images/nonui2.PNG">
