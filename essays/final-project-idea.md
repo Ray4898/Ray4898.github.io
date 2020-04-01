@@ -8,7 +8,6 @@ labels:
   - Meteor
 ---
 
-
 ## Overview
 The problem: A lot UH students will have a lot of questions on their homework, quiz, lectures and so on.  When they have problems or questions, they can just ask their professors by sending emails or asking them face to face in their office hours; however, asking for help by email is not very efficient, and many professors may not be busy to check the emails.  Also, it is not easy to describe some problems in text, so the professors probably don’t understand what we want to ask.  We also can go to their office to ask questions in office hours, but the office hours for many professors are very short.  We may have another class or work during their office hours, so it is hard for some people to ask questions during their professors’ office hours.  
 Beside the professor, we also can ask the classmates, but not too many students have strong connection and communication with their classmates, and they don’t event know what their names are.  In addition, the classmates we ask probably don’t know the answers too.  
@@ -17,7 +16,7 @@ The last way to ask the questions is using internet.  We can google the answer o
 The solution: The UH Q&A platform is an online platform that allows UH students from different major to post the questions or problems online, and the other students or professors who may know the answer can answer the questions. 
 
 ## Approach
-This project is similar to Chegg, except for the following:<br>
+This project is similar to Slackoverglow, except for the following:<br>
 •	This online platform is free.<br>
 •	This online platform is only for UH students and faculty.<br>
 •	Beside the text and picture, people also can upload the video to this platform.<br>
