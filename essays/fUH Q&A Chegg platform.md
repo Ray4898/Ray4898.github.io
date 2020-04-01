@@ -1,8 +1,8 @@
 ---
 layout: essay
 type: essay
-title: "Final Project Idea"
-date: 2019-11-05
+title: "UH Q&A Chegg platform"
+date: 3/31/2020
 labels:
   - Software Engineering
   - Meteor
