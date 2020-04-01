@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 title: "final-project-idea"
-date: 3/31/2020
+date: 3-31-2020
 labels:
   - Software Engineering
   - Meteor
