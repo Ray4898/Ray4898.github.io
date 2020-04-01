@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "UH Q&A Chegg platform"
+title: "final-project-idea: UH Q&A Chegg platform"
 date: 3/31/2020
 labels:
   - Software Engineering
