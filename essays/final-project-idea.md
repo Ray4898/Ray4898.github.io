@@ -75,6 +75,6 @@ Some possible mockup pages include:
 
 ## Beyond the basics
 
-After implementing the basic functionality, here are ideas for more advanced features:
+After implementing the basic functionality, here are ideas for more advanced features:<br>
 •	Use UH CAS Login instead of Meteor Login to guarantee that users are UH students.<br>
 •	A rating system for the answer and solution.<br>
