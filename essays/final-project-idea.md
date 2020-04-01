@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "final-project-idea: UH Q&A Chegg platform"
+title: "final-project-idea"
 date: 3/31/2020
 labels:
   - Software Engineering
@@ -17,7 +17,7 @@ The last way to ask the questions is using internet.  We can google the answer o
 The solution: The UH Q&A platform is an online platform that allows UH students from different major to post the questions or problems online, and the other students or professors who may know the answer can answer the questions. 
 
 ## Approach
-This project is similar to Chegg, except for the following:
+This project is similar to Chegg, except for the following:<br>
 •	This online platform is free.<br>
 •	This online platform is only for UH students and faculty.<br>
 •	Beside the text and picture, people also can upload the video to this platform.<br>
