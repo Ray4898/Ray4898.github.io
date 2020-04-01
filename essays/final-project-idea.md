@@ -44,28 +44,37 @@ Some possible mockup pages include:
 •	Landing page
 <br>
 •	User home page
+<br>
 •	Admin home page
+<br>
 •	User Profile page
+<br>
 •	Login page
+<br>
 •	List questions page
+<br>
 •	Create question page
+<br>
 •	Chat page
+<br>
 •	Search question page
+<br>
 •	Question page
+<br>
 •	Register page
 
 ## Use case ideas
 
-•	New user goes to landing page, register, logs in, gets home page, sets up profile. 
-•	Admin goes to landing page, logs in, gets home page, edits site.
-•	User goes to landing page, logs in, get home page. 
-•	In the home page, they click on different buttons to go to search page, list questions page, and create questions page. 
-•	User can click on each question to go to the question page
-•	User can post the solution in the question page.
+•	New user goes to landing page, register, logs in, gets home page, sets up profile. <br>
+•	Admin goes to landing page, logs in, gets home page, edits site.<br>
+•	User goes to landing page, logs in, get home page. <br>
+•	In the home page, they click on different buttons to go to search page, list questions page, and create questions page. <br>
+•	User can click on each question to go to the question page.<br>
+•	User can post the solution in the question page.<br>
 •	The chat page is a small pop up window appearing on the corner of the web page, which allow people to send the real time messages and communicate with others. 
 
 ## Beyond the basics
 
 After implementing the basic functionality, here are ideas for more advanced features:
-•	Use UH CAS Login instead of Meteor Login to guarantee that users are UH students.
-•	A rating system for the answer and solution.
+•	Use UH CAS Login instead of Meteor Login to guarantee that users are UH students.<br>
+•	A rating system for the answer and solution.<br>
