@@ -16,7 +16,7 @@ The last way to ask the questions is using internet.  We can google the answer o
 The solution: The UH Q&A platform is an online platform that allows UH students from different major to post the questions or problems online, and the other students or professors who may know the answer can answer the questions. 
 
 ## Approach
-This project is similar to Slackoverglow, except for the following:<br>
+This project is similar to Stack Overflow, except for the following:<br>
 •	This online platform is free.<br>
 •	This online platform is only for UH students and faculty.<br>
 •	Beside the text and picture, people also can upload the video to this platform.<br>
@@ -74,6 +74,6 @@ Some possible mockup pages include:
 
 ## Beyond the basics
 
-After implementing the basic functionality, here are ideas for more advanced features:<br>
+After implementing the basic functionality, here are ideas for more advanced features<br>
 •	Use UH CAS Login instead of Meteor Login to guarantee that users are UH students.<br>
 •	A rating system for the answer and solution.<br>
