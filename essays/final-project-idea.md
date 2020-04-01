@@ -40,7 +40,9 @@ Ideally, we should link the user’s account to their emails or phones. When the
 
 
 Some possible mockup pages include:
+<br>
 •	Landing page
+<br>
 •	User home page
 •	Admin home page
 •	User Profile page
