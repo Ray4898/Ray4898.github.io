@@ -18,11 +18,11 @@ The solution: The UH Q&A platform is an online platform that allows UH students 
 
 ## Approach
 This project is similar to Chegg, except for the following:
-•	This online platform is free
-•	This online platform is only for UH students and faculty.
-•	Beside the text and picture, people also can upload the video to this platform.
-•	People also can schedule an online meeting.
-•	This is also a live chat.
+•	This online platform is free.<br>
+•	This online platform is only for UH students and faculty.<br>
+•	Beside the text and picture, people also can upload the video to this platform.<br>
+•	People also can schedule an online meeting.<br>
+•	This is also a live chat.<br>
 When designing your version of this application, keep the following in mind:
 Role: There would be three roles in this system: admin, students and faculty. Administrators are special users who monitors the behavior of users in the system and create new major and other functionality. Students are UH students.  They can choose their major, interest, and even the course title, and they can post the questions, discussions, the answer, and solution in this system based on the major or course title.  Faculty are the UH faculty, and they can post the answers to answer the questions from the students online.
 
