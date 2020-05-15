@@ -43,4 +43,4 @@ Besides that, I also learned how to use GitHub to work with other team members t
 
 Source: <a href="https://github.com/textbookhunt/textbookhunt"><i class="large github icon "></i>source code for this project </a>
 
-You can learn more about this project at the <a href="https://textbookhunt.github.io/"><i class="large github icon"></i>AUV</a>
+You can learn more about this project at the <a href="https://textbookhunt.github.io/"><i class="large github icon"></i>Textbook Hunt</a>
