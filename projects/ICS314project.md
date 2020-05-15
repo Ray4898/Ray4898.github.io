@@ -17,11 +17,11 @@ summary: A web application to allow the UH students to sell and buy textbook.
 ---
 #Description of the project
 
-<div>
+
   <img small class="ui floated image" src="../images/listbook.PNG">
  
   
-</div>
+
 
 Textbook Hut project is the final project we did in ICS 314.   Textbook-Hunt is a meteor application providing UH students with a market of used textbooks. When you arrive at the site the first thing you meet is the landing page.
 
