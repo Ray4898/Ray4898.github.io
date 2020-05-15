@@ -18,7 +18,7 @@ summary: A web application to allow the UH students to sell and buy textbook.
 #Description of the project
 
 
-  <img small class="ui floated image" src="../images/list.PNG">
+  <img class="ui medium floated image" src="../images/list.PNG">
  
   
 
