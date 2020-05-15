@@ -15,7 +15,7 @@ labels:
   - IntelliJ
 summary: A web application to allow the UH students to sell and buy textbook.
 ---
-#Description of the project
+## Description of the project
 
 
   <img class="ui medium floated image" src="../images/list.PNG">
@@ -31,11 +31,11 @@ As a consumer, you can search by textbook name or subject department. Textbook-H
 
 A consumer can then arrange with the seller for a payment plan and pick up a textbook.
 
-#My contribution in the project
+## My contribution in the project
 
 In this project, we used GitHub Issues to assign each team member different tasks.  We splited our project into three different milestones.  In the milestone one, I made a Navi Bar and footer.  I also made the login mop up page.  In the milestone two, I edited the edit book page to allow user to edit the textbook they are selling.  In the milestone three, I made a major filter on the list textbook page, which allows user to filter the textbook by major.  I also implement a search feature on the list book page, which allows user to search the textbook by name.
 
-#My gains from this project
+## My gains from this project
 
 From this project, I gained experience on building a web application with Meteor and react. I practiced how to get the data from the Mongo and how to add the route for components and pages in the app.js file.  I also learned how to pass the object ID to the URL when clicking a hyperlink or a button to another page, so the new page can get the object ID from the previous page and use the object ID to list the data related to that object from the Mongo DB.  I also learned how to hide a button.  
 
