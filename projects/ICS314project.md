@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/textbook.PNG
+image: images/bookhunt.PNG
 title: Textbook Hunt
 permalink: projects/web application
 # All dates must be YYYY-MM-DD format!
@@ -18,7 +18,7 @@ summary: A web application to allow the UH students to sell and buy textbook.
 #Description of the project
 
 <div>
-  <img class="ui floated image" src="../images/listbook.PNG">
+  <img small class="ui floated image" src="../images/listbook.PNG">
  
   
 </div>
