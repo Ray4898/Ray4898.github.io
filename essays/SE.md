@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: may gain from the software engineering class
+title: My Gains from the Software Engineering Class
 # All dates must be YYYY-MM-DD format!
 date: 2020-05-14
 labels: 
