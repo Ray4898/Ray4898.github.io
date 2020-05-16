@@ -24,9 +24,10 @@ for( let i=0; i<array.length; i++ )
 }  
 
 ```
-<img class="ui small floated image" src="../images/fp.PNG">
+
 However, if we use underscore functional programming, we can calculate the sum with just one line of code.  We can use “var sum = _.reduce([1, 2, 3], function(memo, num){ return memo + num; }, 0);”  Therefore, we can skip the for loop if we use functional programming.  
 
+<img class="ui small floated image" src="../images/fp.PNG">
 Functional programming is very useful in web application development.  When developing a web, we always need to get the data from the database and filter the data to get what we want.  With functional programming, we can skip a lot of for loop to speed up our coding, and we can combine some underscore functions together to make a function that return what we want.  It is very useful when we want to get and filter the data from the database.  
 
 Besides that, since we do not need to do the design a large for loop, functional programming can reduce the error we may have.  Hence, functional programming is very useful for software engineering. 
