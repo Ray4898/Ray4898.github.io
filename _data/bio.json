@@ -75,6 +75,9 @@
         "System Verilog",
         "circuit analysis",
         "python"
+        "Semantic UI React"
+        "Meteor"
+        "IntelliJ IDE"
         
 
       ]
@@ -136,12 +139,6 @@
     
   ],
   "Certification": [
-    {
-      "title": "Cisco Certified Network Associate (CCNA) ",
-      "start date": "2017-02-10",
-      "end data": "2020-02-10"
-       
-    },
     {
       "title": "VMware Certified Associate 6 – Data Center Virtualization (VCA)",
       "date": "2017-04-30"
