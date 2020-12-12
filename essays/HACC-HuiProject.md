@@ -24,12 +24,31 @@ For more information about HACC-Hui website, please go to the <a href="https://h
 
 Developing the HACC-Hui web application was not an easy project, and we only had around two months on the project.  We divided this project into four millstones.  At the beginning, we made seven teams.  Each team worked on the same millstone of the project, and we picked the best one as the actual website.  However, we found out it was hard to pick the best one since every team had the good parts and bad parts in its designed website.  It was also hard to merge the good parts of the website each team designed and built together since every team had a different design method, and we did not have too much time on this project.  Therefore, we later decided to divide this HACC-Hui website project into many small issues, and everybody participating in this project could pick one or more issues to do it.  At the end, we merged the work from all the people to complete our web application.  Therefore, everybody would work and contribute on different parts for this project, so we were able to finish it on time.
 
-For this project, first, I worked on a page called best-fit-pages for the HACC-Hui website.  The best-fit-page allows participants to see all available teams from the MongoDB database, and this page displays all the team information for each available team from the database, including the name of the team, the challenge the team want to work on, the skills and tools the project and the team require, the GitHub website for the team, the team members, and the Join button that allow the participant to click to send request to join the team.  Besides that, I also implemented a dropdown function that allows the participant to sort and view the teams in an order from the best match to less match based on their interested challenges, their skills, or the tools they know.  Figure 1 shows the best-fit-page webpage.  After you log in to the website as a participant, you can see this page by clicking the Open Teams tap on the top menu. 
+For this project, first, I worked on a page called best-fit-pages for the HACC-Hui website.  The best-fit-page allows participants to see all available teams from the MongoDB database, and this page displays all the team information for each available team from the database, including the name of the team, the challenge the team want to work on, the skills and tools the project and the team require, the GitHub website for the team, the team members, and the Join button that allow the participant to click to send request to join the team.  Besides that, I also implemented a dropdown function that allows the participant to sort and view the teams in an order from the best match to less match based on their interested challenges, their skills, or the tools they know.  Figure 1 shows the best fit team page webpage.  After you log in to the website as a participant, you can see this page by clicking the Open Teams tap on the top menu. 
 
-
+<div class="ui large rounded images">
+  
+ <img class="ui large center image" src="../images/best-fit-pageweb.PNG">
+ <header><h3>Figure 1. best fit team page</h3></header>
+</div>
 The second thing I did for the website was to improve the existing “Request to Join” button in the best-fit-page webpage.   Some people had implemented the “Request to Join” button in the best-fit-page webpage before I modified the button; however, the “Request to Join” button they implemented did not become unclickable as it was supposed to be after a participant click on that button, and there was not any notification after they click on the button.  Therefore, I worked with Isaac, another student participant in this project, to fix this problem.  We made the webpage to show a nice, sweet alert popup after clicking on the “Request to Join” button.  We also made that after clicking on the button, the button become unclickable and display “You sent the request” until the owner of the team response to the request.  Figure 2 belew the screenshot for how the button change before and after clicking on the button.
 
+<div class="ui large rounded images">
+  
+ <img class="ui large center image" src="../images/beforejoining.PNG">
+ <img class="ui large center image" src="../images/Joining.PNG">
+  <img class="ui large center image" src="../images/Joined.PNG">
+ <header><h3>Figure 2. screenshot showing how the button change before and after clicking on the button</h3></header>
+</div>
+
 The third one I contributed on this website was to implement a webpage for the administrator to view all the unconsented minor participants and be able to change the eligibility status of the minor participants.  This page shows the information of all the unconsented minor participants, including their names, parent names, and emails.  I used the grid to show the information on this website.  The first column shows the name of the unconsented minor participants, and the second column shows the parents’ names of the unconsented minor participants.  I also added a third column for the compliant option, and there is a checkbox on this column for each unconsented minor participant.  Administrator can check the checkbox and click the submit button to change the unconsented minor participants to consented minor participants, so they can participant in the HACC projects.  Figure 3 shows the screenshot of the unconsented-minor-participants page. 
+
+<div class="ui large rounded images">
+  
+ <img class="ui large center image" src="../images/UpdateMinorp.PNG">
+ 
+ <header><h3>Figure 3. unconsented-minor-participants page</h3></header>
+</div>
 
 In additions, I also made the best-fit-team page become mobile friendly, so people can view the webpage clearly on their phones or tablets.  I also changed the style of the best-fit-team page and the unconsented minor participants page so that they can match the style of the rest of the webpages on this web application.  
 
@@ -40,7 +59,7 @@ For the first millstone, I picked the profile page issue and made a webpage that
   
 After the second millstone, Professor Moore changed the way we built the website to increase the efficiency.  He dismissed the teams and made a lot of issues for this project, and everyone could pick one or more issues to work on it (them) individually.  Therefore, after the second millstone, I did not have a team anymore, or we can say there was only one team, and the team members for the team were all people working on the project.  During this time, since I work independently for most of the issues I picked, I did not communicate with too many other people.  The only person I worked with during this period was Isaac, and he asked me for help on improving the “Request to Join” button issue.  I communicated with him through the discord, and we also worked together to figure out how to modify the WantToJoinCollection API for this issue.  Later, I also asked him to test the best-fit-team webpage I made.
 
-## what do I think of and learn from this project and this courese?
+## what do I think of and learn from this project and this course?
 
 I think we were doing a good job on this project.  At the beginning, I worried if we were able to finish this project since we only had two months on it, and we needed to implement a lot of functions and webpages for the web application.  However, we did it, and the people who used our web application did not compliant about our website.  I am very happy that everybody who participated in this project were working hard on this project, including me.  
 
