@@ -11449,6 +11449,8 @@ img.ui.bordered.image {
   width: 450px;
   height: auto;
   font-size: 1.14285714rem;
+  margin: auto;
+  padding: 10px;
 }
 
 .ui.big.images .image,
