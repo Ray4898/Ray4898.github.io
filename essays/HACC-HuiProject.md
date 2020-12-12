@@ -33,7 +33,7 @@ For this project, first, I worked on a page called best-fit-pages for the HACC-H
 </div>
 The second thing I did for the website was to improve the existing “Request to Join” button in the best-fit-page webpage.   Some people had implemented the “Request to Join” button in the best-fit-page webpage before I modified the button; however, the “Request to Join” button they implemented did not become unclickable as it was supposed to be after a participant click on that button, and there was not any notification after they click on the button.  Therefore, I worked with Isaac, another student participant in this project, to fix this problem.  We made the webpage to show a nice, sweet alert popup after clicking on the “Request to Join” button.  We also made that after clicking on the button, the button become unclickable and display “You sent the request” until the owner of the team response to the request.  Figure 2 belew the screenshot for how the button change before and after clicking on the button.
 
-<div class="ui large rounded images">
+<div style="margin-left:200px;" class="ui large rounded images">
   
  <img class="ui large center image" src="../images/beforejoining.PNG">
  <img class="ui large center image" src="../images/Joining.PNG">
