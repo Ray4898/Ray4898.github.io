@@ -35,10 +35,10 @@ The second thing I did for the website was to improve the existing “Request to
 
 <div  class="ui large rounded images">
   
- <img style="margin-left:200px;" class="ui large center image" src="../images/beforejoining.PNG">
- <img style="margin-left:200px;" class="ui large center image" src="../images/Joining.PNG">
-  <img style="margin-left:200px;" class="ui large center image" src="../images/Joined.PNG">
- <header><h4 style="margin-left:200px;">Figure 2. screenshot showing how the button change before and after clicking on the button</h4></header>
+ <img style="margin-left:100px;" class="ui large center image" src="../images/beforejoining.PNG">
+ <img style="margin-left:100px;" class="ui large center image" src="../images/Joining.PNG">
+  <img style="margin-left:100px;" class="ui large center image" src="../images/Joined.PNG">
+ <header><h4 style="margin-left:100px;">Figure 2. screenshot showing how the button change before and after clicking on the button</h4></header>
 </div>
 
 The third one I contributed on this website was to implement a webpage for the administrator to view all the unconsented minor participants and be able to change the eligibility status of the minor participants.  This page shows the information of all the unconsented minor participants, including their names, parent names, and emails.  I used the grid to show the information on this website.  The first column shows the name of the unconsented minor participants, and the second column shows the parents’ names of the unconsented minor participants.  I also added a third column for the compliant option, and there is a checkbox on this column for each unconsented minor participant.  Administrator can check the checkbox and click the submit button to change the unconsented minor participants to consented minor participants, so they can participant in the HACC projects.  Figure 3 shows the screenshot of the unconsented-minor-participants page. 
